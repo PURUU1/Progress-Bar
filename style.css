@@ -73,3 +73,16 @@ text-align: center;
   width: 100px;
   height: 40px;
 }
+
+@media screen and (max-width: 550px) {
+  main {
+    overflow: hidden;
+  }
+  .circle:nth-child(3)::before{
+    
+    /* background-color: grey; */
+    width: 100px;
+
+
+  }
+}
